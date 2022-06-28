@@ -1,0 +1,90 @@
+body{
+    background-color: #8c989a7a;
+}
+nav
+{
+    position: sticky;
+    display: flex;
+    width:auto;
+    /* background-color: crimson; */
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    margin: 5px;
+    font-size: 3rem;
+    color: crimson;
+
+}
+.menu{
+    display:flex;
+}
+.nav-item{
+    list-style:none;
+    margin:3px;
+}
+.nav-item:hover{color:crimson;}
+
+.about{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin:20px;
+}
+.about-content{
+    margin: 200px;
+
+}
+.skills{
+    }
+table{margin: auto;}
+
+.skill-pic{
+    width:100px;
+    height:100px;
+}
+form 
+{
+
+    
+}
+div.about-content span{
+    font-size: 2.5rem;
+    color: crimson;
+}
+h2{color:orange;}
+.contact{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+    /* background-color: black; */
+}
+.links{
+    /* height:200px */
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: aliceblue; */
+    
+    
+}
+.linkedin img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.github img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* form{display: none;} */
